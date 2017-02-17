@@ -1,0 +1,44 @@
+*{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border: 0 0 0 0;
+}
+
+
+.flexContainer{
+  display:flex;
+}
+/**header**/
+#headerContainer{
+  width:100%;
+}
+
+#header{
+  border: 1px solid blue;
+
+
+}
+
+/***Logo****/
+/**TODO Add in the id for the actual logo**/
+#logoWrapper{
+  border:1px solid green;
+
+}
+
+
+
+
+
+/**Nav Units**/
+#navContainer{
+  border:1px solid red;
+
+
+
+
+
+}
+nav{
+  margin: 0 10px 0 10px;
+}
