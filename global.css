@@ -5,6 +5,8 @@
   margin: 0 0 0 0;
   padding: 0 0 0 0;
   border: 0 0 0 0;
+
+
 }
 
 
@@ -13,24 +15,29 @@
 }
 
 a{
-  text-decoration:none;
+ text-decoration: none;
 }
 
 /**header**/
 #headerContainer{
   width:100%;
+  font-family:'Lemon',cursive;
+  background-color:#FFF583;
+  color:white;
+  border-bottom: 5px solid #BEB01A;
 }
 
 #header{
-  border: 1px solid blue;
+  height:5em;
   justify-content: space-between;
+  align-items: center;
 
 }
 
 /***Logo****/
 /**TODO Add in the id for the actual logo**/
 #logoWrapper{
-  border:1px solid green;
+
 
 
 }
@@ -41,13 +48,18 @@ a{
 
 /**Nav Units**/
 #navContainer{
-  border:1px solid red;
+
   width:50%;
   justify-content: space-between;
 
 
 
 }
-nav{
 
+
+
+nav > a{
+  font-size: 2.5em;
+  color:white;
+  -webkit-text-stroke: 1px grey;
 }
