@@ -15,7 +15,7 @@
 
 #header{
   border: 1px solid blue;
-
+  justify-content: space-between;
 
 }
 
@@ -33,12 +33,12 @@
 /**Nav Units**/
 #navContainer{
   border:1px solid red;
-
-
+  width:50%;
+  justify-content: space-between;
 
 
 
 }
 nav{
-  margin: 0 10px 0 10px;
+  
 }
