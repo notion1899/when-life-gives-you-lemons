@@ -1,3 +1,6 @@
+
+/**Utility Stuff**/
+
 *{
   margin: 0 0 0 0;
   padding: 0 0 0 0;
@@ -8,6 +11,11 @@
 .flexContainer{
   display:flex;
 }
+
+a{
+  text-decoration:none;
+}
+
 /**header**/
 #headerContainer{
   width:100%;
@@ -23,6 +31,7 @@
 /**TODO Add in the id for the actual logo**/
 #logoWrapper{
   border:1px solid green;
+
 
 }
 
@@ -40,5 +49,5 @@
 
 }
 nav{
-  
+
 }
