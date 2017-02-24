@@ -28,20 +28,35 @@ a{
 }
 
 #header{
-  height:5em;
+  height:7em;
   justify-content: space-between;
   align-items: center;
 
 }
 
 /***Logo****/
-/**TODO Add in the id for the actual logo**/
-#logoWrapper{
 
+#logoWrapper{
+  margin-left:20px;
+width:30%
+display:flex;
+
+align-items: center;
+}
+
+#logoImage{
 
 
 }
+#logoText{
 
+
+ font-size: 2.5em;
+  color:white;
+  /**Possibly change so that we don't need WebKit**/
+  -webkit-text-stroke: 1px grey
+
+}
 
 
 
@@ -59,7 +74,8 @@ a{
 
 
 nav > a{
-  font-size: 2.5em;
+  font-size: 2em;
   color:white;
-  -webkit-text-stroke: 1px grey;
+  /**Possibly change so that we don't need WebKit**/
+  -webkit-text-stroke: 1px grey
 }
