@@ -1,0 +1,57 @@
+#buyContainer{
+padding-top:10%;
+padding-bottom:10%;
+border:1px solid red;
+}
+
+
+
+#imageHalf{
+
+width:50%;
+text-align: right;
+
+}
+#imageHalf > img{
+  margin-right:50px;
+}
+
+#infoHalf{
+
+
+width:50%;
+text-align: flex-start;
+flex-direction: column;
+justify-content: center;
+}
+
+#infoHalf > *{
+  margin-top:10px;
+  margin-left:50px;
+}
+
+
+#purchaseContainer{
+  justify-content: flex-start;
+
+}
+
+#buyButton{
+
+}
+#price{
+
+}
+
+#furtherInfo{
+
+
+width:60%;
+
+}
+#furtherInfo > p{
+
+
+  margin-top:10px;
+
+}
