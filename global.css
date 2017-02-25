@@ -18,6 +18,10 @@ a{
  text-decoration: none;
 }
 
+body{
+  height:100%;
+}
+
 /**header**/
 #headerContainer{
   width:100%;
@@ -28,7 +32,7 @@ a{
 }
 
 #header{
-  height:7em;
+
   justify-content: space-between;
   align-items: center;
 
