@@ -1,7 +1,7 @@
 #sloganWrapper{
-border-top:solid 5px #4C4799;
+border-top:solid 5px #BEB01A;
 height:60vh;
-background-color: #6B68B2;
+background-color: #FFF583;
 justify-content: center;
 }
 
@@ -13,14 +13,17 @@ justify-content: center;
  justify-content: center;
  align-items: center;
  font-size:3vw;
+  -webkit-text-stroke: 2px black;
 }
 
 #summaryWrapper{
+  border-top:10px solid #95388D;
 display: flex;
 flex-flow:column;
 align-items: center;
-background-color:#BEB01A;
-color:white;
+background-color:white;
+color:#AD59A6;
+font-family:'Open Sans',sans-serif;
 
 }
 

@@ -4,7 +4,7 @@
 *{
   margin: 0 0 0 0;
   padding: 0 0 0 0;
-  border: 0 0 0 0;
+
 
 
 }
@@ -26,10 +26,10 @@ body{
 #headerContainer{
   width:100%;
   font-family:'Lemonada',cursive;
-  background-color:#FFF583;
+  background-color:#6B68B2;
   font-weight: bold;
   color:white;
-  border-bottom: 5px solid #BEB01A;
+  border-bottom: 10px solid #4C4799;
 }
 
 #header{
@@ -59,7 +59,7 @@ white-space: nowrap;
  font-size: 3em;
   color:white;
   /**Possibly change so that we don't need WebKit**/
-  -webkit-text-stroke: 3px grey
+  -webkit-text-stroke: 3px grey;
 
 }
 
@@ -76,12 +76,62 @@ white-space: nowrap;
 
 }
 
-
-
 nav > a{
   margin-right:50px;
   font-size: 2em;
   color:white;
   /**Possibly change so that we don't need WebKit**/
   -webkit-text-stroke: 2px grey;
+}
+
+/**Footer**/
+#footerContainer{
+  color:white;
+  background-color:white;
+
+}
+footer{
+
+font-family:'Lemonada',cursive;
+background-color: #6B68B2;
+justify-content: space-around;
+}
+footer > *{
+      text-align:center;
+      justify-content: center;
+      flex-flow: column;
+
+}
+
+
+
+#mainMenuAgain{
+
+
+  font-size:2em;
+
+}
+
+#mainMenuAgain > a{
+color:white;
+}
+
+#satisfaction{
+
+
+
+}
+#satisfaction > img{
+justify-content: center;
+
+}
+#contactUs{
+
+
+
+}
+#contactUs span{
+  color:white;
+  background-color:#4C4799;
+  padding: 25px 100px 25px 100px;
 }
