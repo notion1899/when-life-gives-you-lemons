@@ -46,3 +46,33 @@ font-size:4em;
 #summary > p{
   margin-top:20px;
 }
+
+#faqContainer{
+  font-family:'Open Sans',cursive;
+  color:white;
+  background-color: #6B68B2;
+}
+
+
+
+#faq{
+text-align: center;
+padding-top:30px;
+}
+
+#faq h2{
+font-size:2em;
+}
+
+#containerForQuestions{
+
+}
+.questionContainer{
+
+  flex-basis: 100%;
+  padding:2% 2% 2% 2%;
+}
+
+.questionContainer span{
+  font-size:1.5em;
+}
