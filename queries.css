@@ -1,0 +1,35 @@
+
+/**When the screen is smaller than 1200px**/
+@media (max-width: 1200px) {
+  #header{
+    flex-flow:column;
+    flex-wrap: wrap;
+
+  }
+
+*{justify-content: center;}
+
+  #navContainer{
+    border:1px solid red;
+    flex-grow: 1;
+  }
+
+  #slogan span{text-align: center;}
+
+
+  }
+
+
+
+
+  @media (max-width:700px) {
+    #logoWrapper{flex-flow:column;}
+    #logoImage{padding-top:20px;}
+
+  }
+
+
+/**TODO**/
+/**You still have to fix the header alignment issue
+  you have to fix the summary text and get it's width correct
+  then you have to finish media queries for the rest of the site**/
