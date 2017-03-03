@@ -10,7 +10,7 @@
 *{justify-content: center;}
 
   #navContainer{
-    border:1px solid red;
+
     flex-grow: 1;
   }
 
@@ -21,12 +21,21 @@
 
 
 
-
-  @media (max-width:700px) {
+@media (max-width:700px) {
     #logoWrapper{flex-flow:column;}
     #logoImage{padding-top:20px;}
+    #logoText{font-size:1em;}
+    #navContainer{
+      width:100%;
+      justify-content:center;;
 
+    }
   }
+
+
+@media (max-width:600px){
+  #logoText{font-size:0.75em;}
+}
 
 
 /**TODO**/

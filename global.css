@@ -45,6 +45,7 @@ body{
   margin-left:20px;
 width:30%
 display:flex;
+font-size: 3em;
 align-items: center;
 }
 
@@ -55,7 +56,7 @@ margin-right:10px;
 #logoText{
 
 white-space: nowrap;
- font-size: 3em;
+
   color:white;
   /**Possibly change so that we don't need WebKit**/
   -webkit-text-stroke: 3px grey;
