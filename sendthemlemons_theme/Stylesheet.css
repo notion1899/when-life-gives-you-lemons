@@ -1,0 +1,156 @@
+/**style.css**/ /**Utility Stuff**/ *{
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.flexContainer{
+  display:flex;
+}
+a{
+ text-decoration: none;
+}
+body{
+  height:100%;
+}
+/**header**/
+#headerContainer{
+  width:100%;
+  font-family:'Lemonada',cursive;
+  background-color:#6B68B2;
+  font-weight: bold;
+  color:white;
+  border-bottom: 10px solid #4C4799;
+}
+#header{
+  justify-content: space-between;
+  align-items: center;
+}
+/***Logo****/
+#logoWrapper{
+  margin-left:20px; width:30% display:flex; font-size: 3em; align-items: center;
+}
+#logoImage{
+margin-right:10px;
+}
+#logoText{
+white-space: nowrap;
+  color:white;
+  /**Possibly change so that we don't need WebKit**/
+  -webkit-text-stroke: 3px grey;
+}
+/**Nav Units**/
+#navContainer{
+  width:50%;
+  justify-content: flex-end;
+  flex-basis: 100%;
+}
+nav > a{
+  margin-right:50px;
+  font-size: 2em;
+  color:white;
+  /**Possibly change so that we don't need WebKit**/
+  -webkit-text-stroke: 2px grey;
+}
+/**Footer**/
+#footerContainer{
+  color:white;
+  background-color:white;
+}
+footer{ font-family:'Lemonada',cursive; background-color: #6B68B2; justify-content: space-around;
+}
+footer > *{
+      text-align:center;
+      justify-content: center;
+      flex-flow: column;
+}
+#mainMenuAgain{
+  font-size:2em;
+}
+#mainMenuAgain > a{
+color:white;
+}
+#satisfaction{
+}
+#satisfaction > img{
+justify-content: center;
+}
+#contactUs{
+}
+#contactUs span{
+  color:white;
+  background-color:#4C4799;
+  padding: 25px 100px 25px 100px;
+}
+
+#sloganWrapper{
+border-top:solid 5px #BEB01A; height:60vh; background-color: #FFF583; justify-content: center;
+}
+#slogan{
+  font-family:'Lemonada',cursive;
+ color:white;
+ height:100%;
+ justify-content: center;
+ align-items: center;
+ font-size:3em;
+  -webkit-text-stroke: 2px black;
+}
+#summaryWrapper{
+  border-top:10px solid #95388D; display: flex; flex-flow:column; align-items: center; background-color:white; color:#AD59A6; font-family:'Open Sans',sans-serif;
+}
+#summaryHeader{
+padding-top:20px; font-size:4em;
+}
+#summarySubHeader{
+}
+#summary{
+  text-align:center;
+  padding-bottom:20px;
+  font-size:1.5em;
+  width:40%;
+}
+#summary > p{
+  margin-top:20px;
+}
+#faqContainer{
+  font-family:'Open Sans',cursive;
+  color:white;
+  background-color: #6B68B2;
+}
+#faq{
+text-align: center; padding-top:30px;
+}
+#faq h2{
+font-size:2em;
+}
+#containerForQuestions{
+}
+.questionContainer{
+  flex-basis: 100%;
+  padding:2% 2% 2% 2%;
+}
+.questionContainer span{
+  font-size:1.5em;
+}
+
+/**When the screen is smaller than 1200px**/ @media (max-width: 1200px) {
+  #header{
+    flex-flow:column;
+    flex-wrap: wrap;
+  }
+*{justify-content: center;}
+  #navContainer{
+    flex-grow: 1;
+  }
+  #slogan span{text-align: center;}
+  }
+@media (max-width:700px) {
+    #logoWrapper{flex-flow:column;} logoImage{padding-top:20px;} logoText{font-size:1em;} navContainer{
+      width:100%;
+      justify-content:center;;
+    }
+  }
+@media (max-width:600px){
+  #logoText{font-size:0.75em;}
+}
+/**TODO**/ /**You still have to fix the header alignment issue
+  you have to fix the summary text and get it's width correct
+  then you have to finish media queries for the rest of the site**/
