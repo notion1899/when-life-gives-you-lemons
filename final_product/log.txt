@@ -1,0 +1,151 @@
+commit 37c4bb8b15bbed30386f50b16d5b4f6de9b7d3cc
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Thu Mar 23 14:14:48 2017 +0000
+
+    FINAL PRODUCT FOR COMP SCI IA
+
+commit 694fc03143435f4ef1b6e6b16c9dc8eff826c624
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Mon Mar 6 09:40:49 2017 -0500
+
+    ADD IN FOLDER FOR WORDPRESS THEME
+
+commit 6441690b3a0769ef1370a7dd78ad4e6d4ab7c8a2
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sun Mar 5 20:11:59 2017 -0500
+
+    CHANGE MAIN CLASS TO FIRST ELEMENT UNDER THE HEADER
+
+commit 85ebf53f24f731bf064b570c8b3f54f969ba46f4
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sun Mar 5 20:10:42 2017 -0500
+
+    ADD MAIN CLASS TO BODY TAG
+
+commit bcfefdc6b9ec4ee9248bced355e59b094efd9054
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Mar 3 12:15:48 2017 -0500
+
+    FIX SPELLING ERRORS
+
+commit 480eb7f03e80495dce99a17cd5300cd317707108
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Tue Feb 28 22:13:02 2017 -0500
+
+    CREATE BASIC STRUCTURE FOR MEDIA QUERIES
+
+commit be45cb3f4a3ea24e1307e65ae79d2b5dddb43eb1
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sun Feb 26 21:23:10 2017 -0500
+
+    CHANGE FAQ LINK TO SCROLL TO BOTTOM OF PAGE
+
+commit 979ff875f20a07dcf2df6c52a020b9472bca608e
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sun Feb 26 21:20:20 2017 -0500
+
+    ADD FAQ TO THE HOME PAGE
+
+commit 657b8f16ac31e6ab3bf6457a1cdad588c5f65f52
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sat Feb 25 23:34:49 2017 -0500
+
+    START FOOTER
+
+commit 99ff0ebeff24e435753421cce19afddf5b6c065a
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sat Feb 25 11:46:02 2017 -0500
+
+    DELETE ABOUT PAGE MAKE SKELETON OF BUY
+
+commit 5397c492021393a6bc31b5157f2088b76d807289
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Sat Feb 25 00:12:39 2017 -0500
+
+    ADD WHAT WE DO SUMMARY
+
+commit c3aca881e9e1009022ff8b1dafacb49bc0b1b488
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 24 23:08:56 2017 -0500
+
+    ADD SLOGAN BLOCK TO INDEX
+
+commit 0e052792f6f7194210000cd371d5027ecf2dd559
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 24 11:28:30 2017 -0500
+
+    ACTUALLY LINK ALL FILES AND MAKE HEADER LINKS WORK
+
+commit 02c50f60e9bd0800b7ec747c24da50040c442bed
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 24 11:27:44 2017 -0500
+
+    LINK ALL PAGES AND MAKE HEADER LINKS WORK
+
+commit a3a8752d26c08c27732b03161eb50fdab3e19ff6
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 24 10:59:59 2017 -0500
+
+    CREATE FOLDERS AND FILES FOR OTHER PAGES, LINK HEADER
+
+commit 35953a14108729aa9f657b6b2a9f46c087da6cab
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 24 00:00:45 2017 -0500
+
+    CONFIGURE LEMON LOGO RESIZE NAV ELEMENTS
+
+commit 1f6595554eba4a070a0771bf32c3e265faf60657
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Thu Feb 23 14:54:59 2017 -0500
+
+    ADD COLOR, FONT TO HEADER AND RESIZE TEXT WITH STROKE
+
+commit 28ebc64e0a5856b2639e2c90c5b377d72ffa1e98
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 22 22:40:10 2017 -0500
+
+    ADD ANCHOR TAGS FOR NAV BAR AND REMOVE text-decoration
+
+commit 994385d87d710f0e6e122438506b1343a105928d
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 22 22:32:55 2017 -0500
+
+    ADD FLEX-BOX FOR HEADER LAYOUT
+
+commit e2e200fc994b1f3723d25719d167348b7d395ace
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Fri Feb 17 10:14:17 2017 -0500
+
+    CREATE BASIC LAYOUT FOR HEADER
+
+commit fe435911747136678b700c268eb42331e8a5067d
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 15 21:59:05 2017 -0500
+
+    Change some stuff back to what it was to test it
+
+commit 3cd7aa829bcb6138c1e94cadd2f94bb8d8ab2cc9
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 15 21:52:16 2017 -0500
+
+    Add some test text to see how git works
+
+commit 0be72a38cd48150cbb5f332ac09efe688e033b14
+Merge: 27d9bf9 b8ddfc8
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 15 20:55:43 2017 -0500
+
+    Merge branch 'master' of https://github.com/novel-notion/when-life-gives-you-lemons
+    Initial Merge
+
+commit 27d9bf96ca6dd88ab1b3ab870268874f8b396c02
+Author: Chris <herrmannc1899@gmail.com>
+Date:   Wed Feb 15 20:29:24 2017 -0500
+
+    Create base files and link them
+
+commit b8ddfc8c6b740a5a00424b72d23078c6a1ceb71e
+Author: Christopher Herrmann <herrmannc1899@gmail.com>
+Date:   Wed Feb 15 20:19:34 2017 -0500
+
+    Initial commit
