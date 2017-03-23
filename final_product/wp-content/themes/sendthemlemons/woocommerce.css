@@ -1,0 +1,54 @@
+
+div#product-13{
+font-family:'Open Sans',sans-serif;
+display:flex;
+align-items:center;
+margin:50px 0px 50px 0px;
+}
+
+div.images{
+
+width:50%;
+text-align:right;
+}
+
+div.summary{
+
+width:50%;
+font-size:1em;
+}
+
+.price{
+font-size:20px;
+}
+
+
+button,input{
+
+margin:10px 0px 10px 0px;
+
+}
+button{
+background-color:#fff583;
+font-family:'Lemonada',sans-serif;
+font-size:1.5em;
+color:white;
+ text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+
+}
+
+
+div[itemprop="description"] p{
+width:50%;
+}
+
+.button{
+border:none;
+width:50%;
+padding:20px 0px 20px 0px;
+
+}
